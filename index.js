@@ -8,6 +8,7 @@ app.use(express.json());
 //----------- moongose-----------------------------------
 mongoose
 .connect("mongodb+srv://sanketm457:A24BoRgX2tyAHyOz@jobapp.ezdevqu.mongodb.net/")
+// .connect("mongodb://localhost:27017/jobApp")
 .then(()=>console.log("Connection done"))
 .catch((err)=>console.log("Error in connection"+err))
 
