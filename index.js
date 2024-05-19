@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
 
 app.use(jobRoutes)
 
-app.listen(3002,()=>{
+app.listen(10000,()=>{
     console.log("Server Started");
 })
 
